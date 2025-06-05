@@ -1,0 +1,7 @@
+{
+    "require": {
+        "alibabacloud/documentautoml-20221229": "1.0.13",
+        "aliyun/aliyun-tablestore-sdk-php": "^5.1",
+        "stomp-php/stomp-php": "5.0.0"
+    }
+}

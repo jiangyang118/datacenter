@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2023-11-09T17:22:05+08:00 ] 127.0.0.1 GET datacenter/
+[运行时间：0.301457s] [吞吐率：3.32req/s] [内存消耗：963.60kb] [文件加载：22]
+[ error ] [64]main(): Failed opening required 'D:\PHP\allProjectFile\tinengProject\datacenter\public/../application/config/local/config.php' (include_path='.;C:\php\pear')[D:\PHP\allProjectFile\tinengProject\datacenter\application\config.php:276]
+[ info ] [ LOG ] INIT File

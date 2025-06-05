@@ -1,0 +1,5 @@
+2024-01-29 18:15:22: -- 分析开始 On File Change, After Delay
+2024-01-29 18:15:22: 从右: 同步需要磁盘 sftp://60.205.131.201 上的空间应为 0.00, 而可用空间大小未知
+2024-01-29 18:15:22: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 5
+2024-01-29 18:15:22: Left to Right: Copy File: 1 
+2024-01-29 18:15:22: 免费版本限制：不允许自动化任务: Activate Paid Version of GoodSync from Purchased License and run Job again

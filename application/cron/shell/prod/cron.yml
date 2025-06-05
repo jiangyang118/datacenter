@@ -1,0 +1,87 @@
+#tablestore数据同步脚本-concept2
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_table_data.sh 0
+#tablestore数据同步脚本-wattbike
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_table_data.sh 3
+#山西tablestore数据同步脚本-wattbike
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_table_data.sh sxkx 3
+#山西tablestore数据同步脚本-划船机
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_table_data.sh sxkx 4
+#山西tablestore数据同步脚本-攀爬机
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_table_data.sh sxkx 5
+#数据中心同步摩洛克自行车数据
+* * * * * sh /workspace/wwwroot/ahtksdps/application/cron/shell/prod/sync_data.sh sxkx
+#同步force(步态分析仪)数据
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_force_txt.sh sxkx
+  #天津机能设备同步脚本-西门子尿十项分析仪Clinitek Status
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 3
+  #天津机能设备同步脚本-西门子全自动化学发光免疫分析仪ADVIA® Centaur CP
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 4
+  #天津机能设备同步脚本-迈瑞全自动生化分析仪BS-380
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 5
+  #天津机能设备同步脚本-迈瑞全自动血液分析仪BC-5385CRP
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 6
+  #天津机能设备同步脚本-富士全自动干式生化分析仪NX500i
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 7
+  #天津机能设备同步脚本-西门子血液分析仪ADVIA2021i
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh tjkx 8
+  #上海竞技训练中心设备同步脚本-西门子尿十项分析仪Clinitek Status
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data.sh shjxkx 3
+  #秦皇岛体科所设备同步脚本-西门子尿十项分析仪Clinitek Status
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh qhdkx 3
+  #膳食就餐数据监控
+0 20 * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/monitor.sh
+#安徽体科所设备同步脚本-希森美康KX21N
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_kx21n_data.sh ahkx
+#安徽体科所设备同步脚本-日立7100
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_hitachi_data.sh ahkx
+#安徽体科所设备同步脚本-西门子Centaur
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_centaur_data.sh ahkx
+#安徽体科所设备数据同步-firstbeat
+10 * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_firstbeat.sh ahkx
+#广东体科所k5心肺设备数据同步脚本
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_cosmedk5_data.sh gdtkskx
+#广东体科所omegawave设备数据同步脚本
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_omegawave_data.sh gdtkskx
+  #同步MONARK数据-安徽
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_data.sh ahkx
+  #同步cortex数据-安徽
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_cortex.sh ahkx
+  #同步MONARK数据-天津
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_data.sh tjkx
+
+#广东体科所数据中心k5心肺设备数据同步脚本
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_cosmedk5_data.sh gdtkskxdc
+#广东体科所数据中心omegawave设备数据同步脚本
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_omegawave_data.sh gdtkskxdc
+  #天津机能设备同步脚本-西门子尿十项分析仪Clinitek Status
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 3
+  #天津机能设备同步脚本-西门子全自动化学发光免疫分析仪ADVIA® Centaur CP
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 4
+  #天津机能设备同步脚本-迈瑞全自动生化分析仪BS-380
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 5
+  #天津机能设备同步脚本-迈瑞全自动血液分析仪BC-5385CRP
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 6
+  #天津机能设备同步脚本-富士全自动干式生化分析仪NX500i
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 7
+  #天津机能设备同步脚本-西门子血液分析仪ADVIA2021i
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_v1.sh tjkx 8
+  #同步MONARK数据-天津
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_highermed.sh tjkx
+  #贵州省机能设备同步脚本-希森美康XS-1000I
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_guizhou.sh gztks 1
+  #贵州省机能设备同步脚本-DOTOP P8088生化测试仪
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_sql_data_guizhou.sh gztks 2
+  #同步BreezingPro能量代谢设备数据-江苏体科所
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_breezingpro.sh tnxljstks
+#秦皇岛tablestore数据同步脚本-泰诺健划船机
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_table_data.sh qhdkx 4
+#秦皇岛-同步cortex心肺数据
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_cortex.sh qhdkx
+
+#上海体科所数据同步
+#tabblestore数据同步脚本-concept2
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_table_data.sh shjxkx 0
+#tablestore数据同步脚本-wattbike
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_table_data.sh shjxkx 3
+#数据同步脚本Polar
+* * * * * sh /workspace/wwwroot/datacenter/project/application/cron/shell/prod/sync_polar_data.sh shjxkx

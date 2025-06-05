@@ -1,0 +1,7 @@
+2024-01-29 18:18:34: -- 分析开始 On File Change First Full Analyze Upon Folder Connect
+2024-01-29 18:18:34: 左侧: 正在读取文件状态 D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw/_gsdata_/_file_state_v4._gs
+2024-01-29 18:18:34: 右侧: 正在读取文件状态 sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5/_gsdata_/_file_state_v4._gs
+2024-01-29 18:18:34: 右侧: 同步需要磁盘 sftp://60.205.131.201 上的空间应为 8.19 KB, 而可用空间大小未知
+2024-01-29 18:18:34: 变更：3， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 5
+2024-01-29 18:18:34: Left to Right: Copy File: 3 
+2024-01-29 18:18:34: Free Version limitation: Auto-Run of Jobs is not allowed: Activate Paid Version of GoodSync from Purchased License and run Job again

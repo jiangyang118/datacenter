@@ -1,0 +1,11 @@
+2024-01-29 18:11:32: == 同步开始由 User Command
+2024-01-29 18:11:32: Start only 2 threads, limited by tasks to run
+2024-01-29 18:11:32: ConnectCloned connected to file:///D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw
+2024-01-29 18:11:32: ConnectCloned connected to file:///D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw
+2024-01-29 18:11:32: GsConnectAndSetRoot1 connected to sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5
+2024-01-29 18:11:32: GsConnectAndSetRoot1 connected to sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5
+2024-01-29 18:11:33: 新建复制 'D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw/成年男子运动 - 3 胡畅 - 19.10.2023.xls' -> 'sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5/成年男子运动 - 3 胡畅 - 19.10.2023.xls' (3,583)
+2024-01-29 18:11:33: 新建复制 'D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw/成年男子运动 - 2 沈烽 - 19.10.2023.xls' -> 'sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5/成年男子运动 - 2 沈烽 - 19.10.2023.xls' (3,583)
+2024-01-29 18:11:33: 保持文件状态 D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw/_gsdata_/_file_state_v4._gs
+2024-01-29 18:11:33: 保持文件状态 sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5/_gsdata_/_file_state_v4._gs
+2024-01-29 18:11:33: == 同步完成. 历时: 00:00:01, 速度: 0.00/s, 完成: 3, 错误: 0

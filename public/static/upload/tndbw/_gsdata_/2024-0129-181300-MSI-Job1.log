@@ -1,0 +1,7 @@
+2024-01-29 18:13:00: -- 分析开始 Periodic Timer
+2024-01-29 18:13:00: 从左: 正在读取文件状态 D:/PHP/allProjectFile/tinengProject/datacenter/public/static/upload/tndbw/_gsdata_/_file_state_v4._gs
+2024-01-29 18:13:00: 从右: 正在读取文件状态 sftp://60.205.131.201//workspace/wwwroot/tndbw/project/public/static/upload/sync/wait/5/_gsdata_/_file_state_v4._gs
+2024-01-29 18:13:00: 从右: 同步需要磁盘 sftp://60.205.131.201 上的空间应为 8.19 KB, 而可用空间大小未知
+2024-01-29 18:13:00: 变更：2， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 4
+2024-01-29 18:13:00: Left to Right: Copy File: 2 
+2024-01-29 18:13:00: 免费版本限制：不允许自动化任务: Activate Paid Version of GoodSync from Purchased License and run Job again

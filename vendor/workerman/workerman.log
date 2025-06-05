@@ -1,0 +1,23 @@
+2024-08-05 15:52:41 pid:1 RowingMachine process terminated
+2024-08-08 13:30:37 pid:1 Error: Call to a member function getBody() on bool in E:\phpruanjian\akexun\datacenter\extend\iot\IotServer.php:102
+Stack trace:
+#0 E:\phpruanjian\akexun\datacenter\application\worker\controller\Wattbike.php(30): iot\IotServer->operateIotServer()
+#1 [internal function]: app\worker\controller\Wattbike->onMessage(Object(Workerman\Connection\TcpConnection), '1')
+#2 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '1')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #65)
+#4 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#5 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#6 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Worker.php(1225): Workerman\Worker->run()
+#7 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#8 E:\phpruanjian\akexun\datacenter\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#9 E:\phpruanjian\akexun\datacenter\vendor\topthink\think-worker\src\Server.php(48): Workerman\Worker::runAll()
+#10 [internal function]: think\worker\Server->__construct()
+#11 E:\phpruanjian\akexun\datacenter\thinkphp\library\think\App.php(390): ReflectionClass->newInstanceArgs(Array)
+#12 E:\phpruanjian\akexun\datacenter\thinkphp\library\think\Loader.php(479): think\App::invokeClass('app\\worker\\cont...')
+#13 E:\phpruanjian\akexun\datacenter\thinkphp\library\think\App.php(611): think\Loader::controller('Wattbike', 'controller', false, 'Error')
+#14 E:\phpruanjian\akexun\datacenter\thinkphp\library\think\App.php(487): think\App::module(Array, Array, false)
+#15 E:\phpruanjian\akexun\datacenter\thinkphp\library\think\App.php(159): think\App::exec(Array, Array)
+#16 E:\phpruanjian\akexun\datacenter\thinkphp\start.php(19): think\App::run()
+#17 E:\phpruanjian\akexun\datacenter\Wattbike.php(14): require('E:\\phpruanjian\\...')
+#18 {main}
+2024-08-08 13:30:37 pid:1 RowingMachine process terminated
