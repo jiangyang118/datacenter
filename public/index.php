@@ -9,11 +9,12 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-//if(!empty($_SERVER['HTTP_REFERER']) && !empty($_SERVER['HTTP_HOST'])) {
-//    if(strpos($_SERVER['HTTP_REFERER'], $_SERVER['HTTP_HOST']) === false) {
-//        throw new Exception("拒绝跨站点请求");
-//    }
-//}
+// 防止跨站点请求
+if (!empty($_SERVER['HTTP_REFERER']) && !empty($_SERVER['HTTP_HOST'])) {
+    if (strpos($_SERVER['HTTP_REFERER'], $_SERVER['HTTP_HOST']) === false) {
+        throw new Exception("拒绝跨站点请求");
+    }
+}
 if($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']=='sxtyjdev.kxunpt.cn:8081/') {
     header("Location:http://sxtyjdev.kxunpt.cn:8081/dist");
     exit();
